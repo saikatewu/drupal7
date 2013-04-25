@@ -1,0 +1,24 @@
+name = Code Snippets
+description = Store and display code snippets.
+core = 7.x
+package = Other
+dependencies[] = features
+dependencies[] = field_collection
+dependencies[] = geshifield
+dependencies[] = text
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[field][] = field_collection_item-field_snippet_item-field_snippet_code
+features[field][] = field_collection_item-field_snippet_item-field_snippet_description
+features[field][] = node-code_snippet-field_snippet_item
+features[node][] = code_snippet
+features[views_view][] = snippets
+features_exclude[dependencies][ctools] = ctools
+
+; Information added by drupal.org packaging script on 2013-04-09
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "snippets"
+datestamp = "1365471397"
+
